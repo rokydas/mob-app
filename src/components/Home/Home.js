@@ -3,6 +3,7 @@ import Clients from '../Clients/Clients';
 import Contact from '../Contact/Contact';
 import FifthSection from '../FifthSection/FifthSection';
 import FirstSection from '../FirstSection/FirstSection';
+import Footer from '../Footer/Footer';
 import FourthSection from '../FourthSection/FourthSection';
 import Navbar from '../Navbar/Navbar';
 import SecondSection from '../SecondSection/SecondSection';
@@ -19,6 +20,7 @@ const Home = () => {
             <FifthSection />
             <Contact />
             <Clients />
+            <Footer />
         </div>
     );
 };
