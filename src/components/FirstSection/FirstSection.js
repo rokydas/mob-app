@@ -4,7 +4,7 @@ import girl from '../../images/girl.jpg';
 
 const FirstSection = () => {
     return (
-        <div style={{width: '100%'}}>
+        <div className="full-container">
             <div className="row">
                 <div className="col-md-5">
                     <img src={girl} style={{ height: '800px' }} className="img-fluid" alt="" />

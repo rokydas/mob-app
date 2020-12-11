@@ -1,9 +1,10 @@
 import React from 'react';
+import './SecondSection.css';
 import pic1 from '../../images/pic1.png';
 
 const SecondSection = () => {
     return (
-        <div className="pt-5 pb-5" style={{ backgroundColor: '#eeeff1' }}>
+        <div className="pt-5 pb-5 section2" style={{ backgroundColor: '#eeeff1' }}>
             <div className="custom-container">
                 <div className="row">
                     <div className="col-md-6">

@@ -11,3 +11,8 @@
     color: white;
     padding: 50px 100px;
 }
+
+.full-container {
+    width: 100%;
+    margin: 0 auto;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import FirstSection from '../FirstSection/FirstSection';
 import Navbar from '../Navbar/Navbar';
 import SecondSection from '../SecondSection/SecondSection';
+import ThirdSection from '../ThirdSection/ThirdSection';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar />
             <FirstSection />
             <SecondSection />
+            <ThirdSection />
         </div>
     );
 };
