@@ -8,9 +8,9 @@ import icon3 from '../../images/icon3.png';
 const ThirdSection = () => {
 
     const needs = [
-        { name: 'Home helper', bgColor: 'white', img: icon1, color: '#556270' },
-        { name: 'Professional plus', bgColor: '#ff6b6b', img: icon2, color: 'white' },
-        { name: 'Office worker', bgColor: 'white', img: icon3, color: '#556270' },
+        { name: 'Home helper', bgColor: 'white', img: icon1, color: '#556270', tellColor: '#ff6b6b' },
+        { name: 'Professional plus', bgColor: '#ff6b6b', img: icon2, color: 'white', tellColor: 'white' },
+        { name: 'Office worker', bgColor: 'white', img: icon3, color: '#556270', tellColor: '#ff6b6b' },
     ]
 
     return (
