@@ -1,4 +1,5 @@
 import React from 'react';
+import Clients from '../Clients/Clients';
 import Contact from '../Contact/Contact';
 import FifthSection from '../FifthSection/FifthSection';
 import FirstSection from '../FirstSection/FirstSection';
@@ -17,6 +18,7 @@ const Home = () => {
             <FourthSection />
             <FifthSection />
             <Contact />
+            <Clients />
         </div>
     );
 };
