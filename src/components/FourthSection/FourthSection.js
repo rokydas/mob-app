@@ -27,8 +27,8 @@ const FourthSection = () => {
 
     return (
         <div style={{width: '85%', marginLeft: 'auto'}} className="mb-5">
-            <div className="row">
-                <div className="col-md-6">
+            <div className="d-flex justify-content-start">
+                <div>
                     <h5 style={{ color: '#ff6b6b' }}>Blog</h5><br/>
                     <h1>Latest news</h1><br/>
                     {
@@ -36,8 +36,8 @@ const FourthSection = () => {
                     }
                     <button className="custom-btn">Visit the blog</button>
                 </div>
-                <div className="col-md-6">
-                    <img src={pic2} className="img-fluid" alt="" />
+                <div>
+                    <img src={pic2} style={{width: '100%'}} alt="" />
                 </div>
             </div>
         </div>
