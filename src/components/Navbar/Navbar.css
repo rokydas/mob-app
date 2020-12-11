@@ -1,0 +1,12 @@
+.custom-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.custom-btn {
+    background-color: #ff6b6b;
+    padding: 15px 40px;
+    border: none;
+    color: white;
+    font-weight: 800;
+}
