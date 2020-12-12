@@ -7,7 +7,7 @@ const NeedCard = ({ need }) => {
     const tell = 'Tell me more >';
 
     return (
-        <div className="col-md-4">
+        <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
             <div className="w-100 p-5 need-card" style={{ backgroundColor: bgColor, color: color }}>
                 <div className="text-center">
                     <img src={img} className="img-fluid" alt="" /><br /><br />
@@ -15,7 +15,6 @@ const NeedCard = ({ need }) => {
                 <h3>{name}</h3><br />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corrupti magnam aliquam ratione atque harum eligendi sapiente! Laborum, repellat sint.</p><br />
                 <h5 style={{ color: tellColor }}><u>{tell}</u></h5>
-                
             </div>
         </div>
     );

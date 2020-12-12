@@ -1,3 +1,8 @@
 .need-card {
-    box-shadow: 7px 7px 20px gray;
+    box-shadow: 5px 5px 20px lightgrey;
+    margin-bottom: 50px;
+}
+
+.need-card:hover {
+    box-shadow: 10px 10px 20px lightgrey;
 }

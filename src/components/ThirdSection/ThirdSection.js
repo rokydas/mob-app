@@ -17,7 +17,7 @@ const ThirdSection = () => {
         <div className="third-section">
             <div className="custom-container">
                 <div className="pt-5 mb-5">
-                    <h4 style={{ color: '#ff6b6b' }}>Business Packages</h4><br />
+                    <h4 style={{ color: '#ff6b6b' }}>BUSINESS PACKAGES</h4><br />
                     <h1>Tailored to your needs</h1><br />
                     <div className="row">
                         {
