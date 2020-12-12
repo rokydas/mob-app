@@ -1,7 +1,6 @@
 import React from 'react';
 import Clients from '../Clients/Clients';
-import Contact from '../Contact/Contact';
-import FifthSection from '../FifthSection/FifthSection';
+import FifthAndContact from '../FifthAndContact/FifthAndContact';
 import FirstSection from '../FirstSection/FirstSection';
 import Footer from '../Footer/Footer';
 import FourthSection from '../FourthSection/FourthSection';
@@ -17,8 +16,7 @@ const Home = () => {
             <SecondSection />
             <ThirdSection />
             <FourthSection />
-            <FifthSection />
-            <Contact />
+            <FifthAndContact />
             <Clients />
             <Footer />
         </div>

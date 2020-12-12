@@ -23,21 +23,23 @@ const FourthSection = () => {
             likeNumber: 600,
             commentNumber: 200
         }
-    ] 
+    ]
 
     return (
-        <div style={{width: '85%', marginLeft: 'auto'}} className="mb-5">
-            <div className="d-flex justify-content-start">
-                <div>
-                    <h5 style={{ color: '#ff6b6b' }}>Blog</h5><br/>
-                    <h1>Latest news</h1><br/>
+        <div style={{ width: '85%', marginLeft: 'auto' }} className="mb-5 col-12">
+            <div className="row">
+                <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h5 style={{ color: '#ff6b6b' }}>Blog</h5><br />
+                    <h1>Latest news</h1><br />
                     {
                         allNews.map(news => <SingleNews news={news} key={news.name} />)
                     }
-                    <button className="custom-btn">Visit the blog</button>
+                    <button className="custom-btn">Visit the blog</button><br/><br/><br/>
                 </div>
-                <div>
-                    <img src={pic2} style={{width: '100%'}} alt="" />
+                <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div className="d-flex justify-content-center align-items-center">
+                        <img src={pic2} style={{ width: '100%' }} alt="" />
+                    </div>
                 </div>
             </div>
         </div>

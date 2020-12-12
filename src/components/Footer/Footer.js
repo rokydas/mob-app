@@ -53,7 +53,7 @@ const Footer = () => {
             <div className="hori-row"></div>
             <div className="custom-container mb-5 pb-5">
                 <div className="row">
-                    <img className="col-md-1 mb-5" height="50px" width="30px" src={hand} alt="" />
+                    <img className="col-md-1 mb-5" src={hand} alt="" />
                     <p className="col-md-4">Download more free designs from uiRepublic.net</p>
                     <img className="col-md-2" style={{ marginLeft: 'auto' }} src={social} height="40px" alt="" />
                 </div>
