@@ -7,8 +7,8 @@ const Footer = () => {
     return (
         <div>
             <div className="custom-container">
-                <div className="d-flex justify-content-start">
-                    <div className="mr-5 pr-5">
+                <div className="row">
+                    <div className="col-md-2">
                         <h5 className="footer-main-item">Memberships</h5><br />
                         <p>How to join</p>
                         <p>Member benefits</p>
@@ -16,7 +16,7 @@ const Footer = () => {
                         <p>Contact info</p>
                         <p>Partners</p>
                     </div>
-                    <div className="mr-5 pr-5">
+                    <div className="col-md-2">
                         <h5 className="footer-main-item">Slakes packages</h5><br />
                         <p>Pricing information</p>
                         <p>Product features</p>
@@ -24,7 +24,7 @@ const Footer = () => {
                         <p>Custom API</p>
                         <p>Knowledge base</p>
                     </div>
-                    <div className="mr-5 pr-5">
+                    <div className="col-md-2">
                         <h5 className="footer-main-item">Help and guidance</h5><br />
                         <p>How to join</p>
                         <p>Member benefits</p>
@@ -32,7 +32,7 @@ const Footer = () => {
                         <p>Contact info</p>
                         <p>Partners</p>
                     </div>
-                    <div className="mr-5 pr-5">
+                    <div className="col-md-2">
                         <h5 className="footer-main-item">About our business</h5><br />
                         <p>Pricing information</p>
                         <p>Product features</p>
@@ -40,7 +40,7 @@ const Footer = () => {
                         <p>Custom API</p>
                         <p>Knowledge base</p>
                     </div>
-                    <div className="mr-5 pr-5">
+                    <div className="col-md-2">
                         <h5 className="footer-main-item">Support tickets</h5><br />
                         <p>Pricing information</p>
                         <p>Product features</p>
@@ -52,10 +52,10 @@ const Footer = () => {
             </div>
             <div className="hori-row"></div>
             <div className="custom-container mb-5 pb-5">
-                <div className="d-flex justify-content-start">
-                    <img className="mr-5" width="50px" height="50px" src={hand} alt="" />
-                    <p className="m-3">Download more free designs from uiRepublic.net</p>
-                    <img className="mt-2" style={{ marginLeft: 'auto' }} src={social} height="40px" alt="" />
+                <div className="row">
+                    <img className="col-md-1 mb-5" height="50px" width="30px" src={hand} alt="" />
+                    <p className="col-md-4">Download more free designs from uiRepublic.net</p>
+                    <img className="col-md-2" style={{ marginLeft: 'auto' }} src={social} height="40px" alt="" />
                 </div>
             </div>
         </div>

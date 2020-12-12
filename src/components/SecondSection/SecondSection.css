@@ -1,0 +1,19 @@
+.section2 {
+    background-image: url('../../images/obligue1.png');
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding: 150px 0px;
+    color: #556270;
+}
+
+.section2-part1 {
+    padding-right: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .section2-part1 {
+        padding-right: 20px;
+        margin-bottom: 100px;
+    }
+}
